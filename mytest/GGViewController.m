@@ -7,8 +7,7 @@
 //
 
 #import "GGViewController.h"
-
-#import "GGView.h"
+#import "UIView+Orientation.h"
 
 @interface GGViewController ()
 
@@ -62,7 +61,8 @@
 }
 
 - (void)loadSubviews {
-    GGView * vView = [[GGView alloc] initWithFrame:CGRectMake(5, 5, 100, 200)];
+    UIView * vView = [[UIView alloc] initWithFrame:CGRectMake(5, 5, 100, 200)];
+    vView.backgroundColor = [UIColor blueColor];
     [vView setLFrame:CGRectMake(5, 5, 200, 100)];
     [vView setPFrame:CGRectMake(5, 5, 100, 200)];
     [self.view addSubview:vView];

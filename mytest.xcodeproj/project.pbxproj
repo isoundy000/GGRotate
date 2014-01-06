@@ -21,6 +21,7 @@
 		7AEB0A03187A76E100D21BD0 /* mytestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEB0A02187A76E100D21BD0 /* mytestTests.m */; };
 		7AEB0A0E187A777F00D21BD0 /* GGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEB0A0D187A777F00D21BD0 /* GGViewController.m */; };
 		7AEB0A14187A874900D21BD0 /* GGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEB0A13187A874900D21BD0 /* GGView.m */; };
+		7AEB0A17187AA2FE00D21BD0 /* UIView+Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEB0A16187AA2FE00D21BD0 /* UIView+Orientation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		7AEB0A0D187A777F00D21BD0 /* GGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGViewController.m; sourceTree = "<group>"; };
 		7AEB0A12187A874900D21BD0 /* GGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGView.h; sourceTree = "<group>"; };
 		7AEB0A13187A874900D21BD0 /* GGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGView.m; sourceTree = "<group>"; };
+		7AEB0A15187AA2FE00D21BD0 /* UIView+Orientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Orientation.h"; sourceTree = "<group>"; };
+		7AEB0A16187AA2FE00D21BD0 /* UIView+Orientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Orientation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				7AEB0A0D187A777F00D21BD0 /* GGViewController.m */,
 				7AEB0A12187A874900D21BD0 /* GGView.h */,
 				7AEB0A13187A874900D21BD0 /* GGView.m */,
+				7AEB0A15187AA2FE00D21BD0 /* UIView+Orientation.h */,
+				7AEB0A16187AA2FE00D21BD0 /* UIView+Orientation.m */,
 			);
 			path = mytest;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				7AEB09EE187A76E100D21BD0 /* AppDelegate.m in Sources */,
 				7AEB0A0E187A777F00D21BD0 /* GGViewController.m in Sources */,
 				7AEB09EA187A76E100D21BD0 /* main.m in Sources */,
+				7AEB0A17187AA2FE00D21BD0 /* UIView+Orientation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +459,7 @@
 				7AEB0A08187A76E100D21BD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7AEB0A09187A76E100D21BD0 /* Build configuration list for PBXNativeTarget "mytestTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +468,7 @@
 				7AEB0A0B187A76E100D21BD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
